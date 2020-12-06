@@ -1,0 +1,8 @@
+spring:
+  application:
+    name:  microservicecloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/icoreman/spring-cloud-config-demo1.git
